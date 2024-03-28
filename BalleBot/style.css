@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.cabecalho{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cabecalho-logo{
+    height: 80px;
+}
+.cabecalho-links{
+    padding-top: 1px;
+    display: flex;
+    gap: 30px;
+}
+.link{
+    color: #ffffff;
+    font-family: "Sarala";
+    font-weight: 400;
+    padding: 5px;
+    
+}
+
+.link:hover{
+    border-bottom: #ffffff  1px solid;
+    
+}
+
+.secao1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 1px solid #FFF2E7;
+}  
+
+.secao1-textos{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.ballebot-img{
+    height: 350px;
+}
+.secao1-h1{
+    font-family: "Righteous";
+    color: #FFF2E7;
+    font-size: 60px;
+    font-weight:400;
+}
+
+.secao1-h2{
+    font-family: "Sarala";
+    color: #ECD6C4;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.botao{  
+    width: 150px;
+    height: 40px;
+    background-color: #ECD6C4;
+    font-family: "Sarala";
+    font-weight: 400;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px 0px rgba(0, 0, 0, 0.25);
+    font-size: 16px;
+}
+.botao:hover{
+    background-color: #ecd6c47b;
+    cursor: pointer;
+    transition:  0.3s;
+}
+
+.secao2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.secao2-h2{
+    border-top: 1px solid #FFF2E7;
+    padding-top: 50px;
+    font-family: "Righteous";
+    font-weight: 400;
+    color: #FFF2E7;
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.secao2-p{
+    font-family: "Sarala";
+    color: #ECD6C4;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+.rodape{
+    border-top: 1px solid white;
+    margin-top: 35px;
+    padding: 32px;
+    
+}
+
+
+.rodape-logo{
+    display: block;
+    margin: 0 auto;
+    height: 48px;
+  
+}
