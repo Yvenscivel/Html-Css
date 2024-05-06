@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    list-style: none;
+}
+
+main{
+    background-color: #ffffff;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.area-login{
+    width: 400px;
+    padding: 30px;
+}
+
+.titulo-login{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+.formulario{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border: #DBDBDB solid 1px;
+}
+input{
+    padding: 10px;
+    margin-top: 5px;
+    border: #DBDBDB solid 1px;
+    background-color: #FAFAFA;
+}
+.formulario-email::placeholder{
+    font-size: 12px;
+}
+.formulario-senha::placeholder{
+    font-size: 12px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.formulario-botao{
+    background-color: #0095F6;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 9px;
+}
+
+.ou{
+    margin: 10px 0 10px 0;
+    font-size: 14px;
+    color: #385185;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.entrar-com-facebook{
+    display: flex;
+    flex-direction: row;
+    gap: 7px;
+    font-size: 14px;
+}
+.entrar-com-facebook>a{
+    color: #385185 ;
+    font-weight:600;
+}
+
+.esqueceu-a-senha{
+    color: #00376B;
+    font-size: 12px;
+}
+
+.nao-tem-conta{
+    font-size: 14px;
+    margin-top: 10px;
+    padding: 20px;
+    text-align: center;
+    border: #DBDBDB solid 1px;
+
+}
+.cadastre-se{
+    color: #0095F6;
+    font-weight: bold;
+}
+
+.obtenha-o-aplicativo{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+.itens{
+    margin-top: 50px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.itens>li>a{
+    color: #737373;
+}
+
+.baixo-itens{
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    gap:20px;
+    color: #737373;
+}
